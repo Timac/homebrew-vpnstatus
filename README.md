@@ -1,2 +1,11 @@
-# homebrew-vpnstatus
-Homebrew tap for VPNStatus
+# Timac VPNStatus
+
+## How do I install these formulae?
+
+`brew install timac/vpnstatus/<formula>`
+
+Or `brew tap timac/vpnstatus` and then `brew install <formula>`.
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
