@@ -1,6 +1,6 @@
 cask "vpnstatus" do
-  version "2.0"
-  sha256 "29ce723c81838275f78dfd7ec19c00bdd4b0d8bb202dbf77eb5a5c64123211d3"
+  version "3.0"
+  sha256 "44b6c5a1e25d868ec69a3a46b75fefce476b4913fffaeb0f4d77bfdec7fc844b"
 
   url "https://github.com/Timac/VPNStatus/releases/download/#{version}/VPNStatus.app.zip"
   name "VPNStatus"
