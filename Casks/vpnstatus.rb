@@ -7,7 +7,13 @@ cask "vpnstatus" do
   desc "Replacement for builtin VPN Status"
   homepage "https://github.com/Timac/VPNStatus"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   auto_updates false
+  depends_on macos: ">= :monterey"
 
   app "VPNStatus.app"
 
