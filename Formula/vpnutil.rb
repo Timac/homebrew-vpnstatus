@@ -4,6 +4,12 @@ class Vpnutil < Formula
   url "https://github.com/Timac/VPNStatus/releases/download/3.0/vpnutil.zip"
   sha256 "c8477df422660d917f6928d50618986b60376768106afbaca8859cb655c757f6"
   license "MIT"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   depends_on :macos
 
   def install
