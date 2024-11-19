@@ -1,12 +1,12 @@
 class Vpnutil < Formula
   desc "Command-line tool that can start and stop a VPN service from the Terminal"
   homepage "https://github.com/Timac/VPNStatus"
-  url "https://github.com/Timac/VPNStatus/releases/download/3.0/vpnutil.zip"
-  sha256 "c8477df422660d917f6928d50618986b60376768106afbaca8859cb655c757f6"
+  url "https://github.com/Timac/VPNStatus/releases/download/3.1/vpnutil.zip"
+  sha256 "6eb981aebdc6e3e0209fae5a7db515a8ab7ce4d62395f685d5559edc23df4267"
   license "MIT"
 
   livecheck do
-    url :url
+    url :stable
     strategy :github_latest
   end
 
@@ -18,6 +18,6 @@ class Vpnutil < Formula
 
   test do
     # Validate install
-    system "#{bin}/vpnutil", "list"
+    system bin/"vpnutil", "list"
   end
 end
