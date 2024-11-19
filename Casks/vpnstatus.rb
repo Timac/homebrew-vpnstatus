@@ -1,8 +1,8 @@
 cask "vpnstatus" do
-  version "3.0"
-  sha256 "44b6c5a1e25d868ec69a3a46b75fefce476b4913fffaeb0f4d77bfdec7fc844b"
+  version "3.1"
+  sha256 "c8e484b1d911e8aaab3ca5d6c527814d61707d47e9b4c0ede98bcd156ff07ba8"
 
-  url "https://github.com/Timac/VPNStatus/releases/download/#{version}/VPNStatus.app.zip"
+  url "https://github.com/Timac/VPNStatus/releases/download/#{version}/VPNStatus.zip"
   name "VPNStatus"
   desc "Replacement for builtin VPN Status"
   homepage "https://github.com/Timac/VPNStatus"
